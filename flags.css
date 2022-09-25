@@ -67,7 +67,8 @@ body {
   position: relative;
 }
 
-.bangladesh-inner {
+#bangladesh.flag::after {
+  content: '';
   background: #F42A41;
   position: absolute;
   top: 16.67%;
@@ -100,4 +101,34 @@ body {
   background: #FFFFFF;
   position: absolute;
   transform: translate(-50%, -25%) rotate(-1.0304rad);
+}
+
+#singapore.flag {
+  aspect-ratio: 3/2;
+  position: relative;
+  background: linear-gradient(
+    to bottom,
+    #EE2536 50%,
+    #FFFFFF 50%
+  );
+}
+
+.singapore-circle-back {
+  background: #FFFFFF;
+  position: absolute;
+  top: 6.597%;
+  left: 8.852%;
+  width: 24.537%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.singapore-circle-front {
+  background: #EE2536;
+  position: absolute;
+  top: 6.597%;
+  left: 14.407%;
+  width: 24.537%;
+  aspect-ratio: 1;
+  border-radius: 50%;
 }

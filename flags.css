@@ -76,3 +76,28 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
 }
+
+#scotland.flag {
+  aspect-ratio: 5/3;
+  position: relative;
+  background: #005EB8;
+  overflow: hidden;
+}
+
+.scotland-left {
+  left: 50%;
+  width: 10%;
+  height: 200%;
+  background: #FFFFFF;
+  position: absolute;
+  transform: translate(-50%, -25%) rotate(1.0304rad);
+}
+
+.scotland-right {
+  left: 50%;
+  width: 10%;
+  height: 200%;
+  background: #FFFFFF;
+  position: absolute;
+  transform: translate(-50%, -25%) rotate(-1.0304rad);
+}
